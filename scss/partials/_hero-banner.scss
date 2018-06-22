@@ -1,0 +1,29 @@
+.hero-banner {
+  padding-top: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 400px;
+  background: url('img/hero-bg-overlay.png') no-repeat right top;
+  width: 100%;
+  background-size: cover;
+  color: $gold;
+  font-weight: $font-regular;
+  height: 100vh;
+
+  hr {
+    width: 80%;
+  }
+  
+  h5 {
+    margin: 0px;
+  }
+}
+
+.hero-banner__icon {
+  width: 50px;
+  width: 50px;
+  display: block;
+  margin: 20px auto;
+}

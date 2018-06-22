@@ -1,0 +1,11 @@
+.page-title {
+    padding-top: 100px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background-color: $black;
+    background: url('img/hero-bg-overlay.png') center left;
+    background-size: cover;
+}

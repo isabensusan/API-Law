@@ -1,0 +1,36 @@
+footer {
+  background-color: $dark-blue;
+}
+
+.footer__wrapper {
+  max-width: $layout-max-width;
+  padding: 50px 0px 25px 0px;
+  height: 100%;
+  margin: auto;
+}
+
+.footer__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  h5,h3 {
+    margin: 0;
+  }
+}
+
+.footer__copyright {
+  width: 100%;
+  text-align: center;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width:768px) {
+  .footer__info div{
+    width: 100%;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,38 @@
+// General styles to tie modules together
+
+
+.split-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: $layout-max-width;
+  margin: auto;
+  div {
+    width: 45%;
+  }
+  div:first-child {
+    margin-right: 10%;
+  }
+  div:nth-child(2) {
+    background-image: url('img/bridge.jpg');
+    background-size: cover;
+    background-position: center left;
+    min-height: 200px;
+  }
+}
+
+@media(max-width: 768px) {
+  .split-content div {
+    width: 100%;
+
+    &:first-child {
+      order: 2;
+    }
+    &:nth-child(2) {
+      order: 1;
+    }
+  }
+}
+
+.title-wrapper {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,32 @@
+.section-title {
+  width: max-content;
+  margin: auto;
+  position: relative;
+}
+
+.section-title__back-text {
+  opacity: 0.1;
+  line-height: 100px;
+  margin: 0;
+  font-size: 100px;
+}
+
+.section-title__front-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 120px;
+  margin: 0;
+}
+
+@media(max-width: 768px) {
+  .section-title__back-text {
+    line-height: 60px;
+    font-size: 60px;
+  }
+  .section-title__front-text {
+    font-size: 30px;
+    line-height: 80px;
+  }
+}
